@@ -10,3 +10,10 @@
 @return 无
 */
 void Light_Config(void);
+
+/**
+ * @brief 获取光敏电阻数据
+ * @param 无
+ * @return 光敏电阻数据(0~4095)
+ */
+uint16_t Light_GetData(void);
